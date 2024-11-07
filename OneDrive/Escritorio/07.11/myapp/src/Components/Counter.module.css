@@ -1,0 +1,16 @@
+.container{
+    border: 1px solid green;
+}
+
+.title{
+    color: blue;
+}
+
+
+.btn{
+    padding: 20px;
+    background-color: lightblue;
+    color:black;
+    align-self: center;
+    box-sizing: border-box;
+}

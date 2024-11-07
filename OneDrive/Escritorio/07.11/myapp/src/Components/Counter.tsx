@@ -1,4 +1,5 @@
 import { useState } from "react"
+import css from "./Counter.module.css"
 
 export function Counter():JSX.Element{
 
@@ -11,9 +12,10 @@ export function Counter():JSX.Element{
         setNum(num+1)
     }
     return(
-        <div>
+        <div className={css.container}>
+            <h1 className={css.title}>My counter </h1>
             <p>my name is {name}</p>
-            <button onClick={increment}>+</button>
+            <button className={css.btn} onClick={increment}>+</button>
             {num}
         </div>
     )
